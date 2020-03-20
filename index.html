@@ -199,7 +199,7 @@
 </ul>
 <p>下载 Node.js 和 Git 程序并安装，一路点 “下一步” 按默认配置完成安装。</p>
 <p>安装完成后，Win+R 输入 cmd 并打开，依次输入 <code>node -v</code>、<code>npm -v</code> 和 <code>git --version</code> 并回车，如下图出现程序版本号即可。</p>
-<p><img src="C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584676654371.png" alt="1584676654371"></p>
+<p><img src="E:%5Chexo-Blog%5Cthemes%5Cyilia%5Csource%5Cimg%5Cblog%5C1584676654371.png" alt="1584676654371"></p>
 <h3 id="连接Github"><a href="#连接Github" class="headerlink" title="连接Github"></a>连接Github</h3><p>使用邮箱注册 <a href="https://link.zhihu.com/?target=https%3A//github.com/">GitHub</a> 账户，选择免费账户（Free），并完成邮件验证。</p>
 <p>右键 -&gt; Git Bash Here，<strong>设置用户名和邮箱</strong>（这里右键的位置我是随便找个文件夹右键选项的，这里只是使用Git连接github邮箱账户，所以虽然我的git不能使用npm也是不影响的）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;GitHub 用户名&quot;</span><br><span class="line">git config --global user.email &quot;GitHub 邮箱&quot;</span><br></pre></td></tr></table></figure>
@@ -212,7 +212,7 @@
 <p><img src="C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584691354432.png" alt="1584691354432"></p>
 <p><strong>验证连接：</strong></p>
 <p>打开 Git Bash（这里我也是随便找了个文件夹右键Gitbash），输入 <code>ssh -T git@github.com</code> 出现 “Are you sure……”，输入 yes 回车确认。</p>
-<p><img src="C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584691542342.png" alt="1584691542342"></p>
+<p><img src="E:%5Chexo-Blog%5Cthemes%5Cyilia%5Csource%5Cimg%5Cblog%5C1584691542342.png" alt="1584691542342"></p>
 <p>显示 “Hi xxx! You’ve successfully……” 即连接成功。</p>
 <h3 id="创建Github-Pages仓库"><a href="#创建Github-Pages仓库" class="headerlink" title="创建Github Pages仓库"></a>创建Github Pages仓库</h3><p>GitHub 主页右上角加号 -&gt; New repository：</p>
 <ul>
@@ -221,7 +221,7 @@
 <li>Description 选填</li>
 </ul>
 <p>填好后点击 Create repository 创建。</p>
-<p><img src="C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584691990627.png" alt="1584691990627"></p>
+<p><img src="E:%5Chexo-Blog%5Cthemes%5Cyilia%5Csource%5Cimg%5Cblog%5C1584691990627.png" alt="1584691990627"></p>
 <p>创建后默认自动启用 HTTPS，博客地址为：<code>https://用户名.github.io</code>（这就是你的博客地址了）</p>
 <h3 id="本地安装Hexo博客程序"><a href="#本地安装Hexo博客程序" class="headerlink" title="本地安装Hexo博客程序"></a>本地安装Hexo博客程序</h3><p>新建一个文件夹用来存放 Hexo 的程序文件，如 Hexo-Blog。打开该文件夹，右键 -&gt; Git Bash Here。</p>
 <p>（在这里说明一下 由于我的git环境变量并没有和系统共享，搞了半天也没配成所以以下用gitbash的终端我都是用cmd打开的，个人觉得没什么区别，命令都一样。如果gitbash可以用那建议还是跟着下面的截图来）</p>
@@ -232,7 +232,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
 <p><strong>耐心等待</strong>，安装完成后如下图。（盗图）</p>
-<p><img src="C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584692386802.png" alt="1584692386802"></p>
+<p><img src="E:%5Chexo-Blog%5Cthemes%5Cyilia%5Csource%5Cimg%5Cblog%5C1584692386802.png" alt="1584692386802"></p>
 <h3 id="Hexo-初始化和本地预览"><a href="#Hexo-初始化和本地预览" class="headerlink" title="Hexo 初始化和本地预览"></a><strong>Hexo 初始化和本地预览</strong></h3><p><strong>初始化并安装所需组件：</strong></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init      # 初始化</span><br><span class="line">npm install    # 安装组件</span><br></pre></td></tr></table></figure>
 
@@ -240,7 +240,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g   # 生成页面</span><br><span class="line">hexo s   # 启动预览</span><br></pre></td></tr></table></figure>
 
 <p><strong>访问</strong> <code>http://localhost:4000</code><strong>，出现 Hexo 默认页面，本地博客安装成功！</strong></p>
-<p><img src="C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584692552185.png" alt="1584692552185"></p>
+<p><img src="E:%5Chexo-Blog%5Cthemes%5Cyilia%5Csource%5Cimg%5Cblog%5C1584692552185.png" alt="1584692552185"></p>
 <p>（这里再说明一下，我用cmd执行完这些命令后是没有Hexo默认页面的，显示的是空白页面，没有index.html,不过只要能打开就无所谓，后面添加完主题就ok了）</p>
 <h3 id="部署-Hexo-到-GitHub-Pages"><a href="#部署-Hexo-到-GitHub-Pages" class="headerlink" title="部署 Hexo 到 GitHub Pages"></a>部署 Hexo 到 GitHub Pages</h3><p>本地博客测试成功后，就是上传到 GitHub 进行部署，使其能够在网络上访问。</p>
 <p>首先<strong>安装 hexo-deployer-git</strong>：</p>
@@ -254,7 +254,7 @@
 <h3 id="绑定域名（可选）"><a href="#绑定域名（可选）" class="headerlink" title="绑定域名（可选）"></a>绑定域名（可选）</h3><p>博客搭建完成使用的是 GitHub 的子域名（用户名.<a href="https://link.zhihu.com/?target=http%3A//github.io">http://github.io</a>），我们可以为 Hexo 博客绑定自己的域名替换 GitHub 域名，更加个性化和专业，也利于 SEO。</p>
 <p>这个域名我还没买。。。网上应该有不少教程在此不一一赘述。</p>
 <h3 id="添加主题"><a href="#添加主题" class="headerlink" title="添加主题"></a>添加主题</h3><p>我用的是yilia主题，效果如本博客所示。。过程非常的简单，直接在GitHub上fork yilia的项目再把文件夹下载到博客文件夹的theme文件夹中就ok了。</p>
-<p><img src="C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1584693332994.png" alt="1584693332994"></p>
+<p><img src="E:%5Chexo-Blog%5Cthemes%5Cyilia%5Csource%5Cimg%5Cblog%5C1584693332994.png" alt="1584693332994"></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https:&#x2F;&#x2F;hexo.io&#x2F;plugins&#x2F;</span><br><span class="line">## Themes: https:&#x2F;&#x2F;hexo.io&#x2F;themes&#x2F;</span><br><span class="line">theme: yilia</span><br></pre></td></tr></table></figure>
 
 <p>然后<strong>修改 _config.yml</strong> 文件末尾的 theme部分，修改成如上：</p>
